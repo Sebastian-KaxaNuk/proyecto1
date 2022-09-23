@@ -1,5 +1,4 @@
 selenium==4.3
-urllib
 pandas
 time
 unittest
