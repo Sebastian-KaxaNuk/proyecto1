@@ -2,5 +2,5 @@ steps:
 - name: 'gcr.io/cloud-builders/docker'
   args: ['build', '-t', 'gcr.io/pruebas1-363302/proyecto1', '.']
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push', '-t', 'gcr.io/pruebas1-363302/proyecto1']
+  args: ['push','gcr.io/pruebas1-363302/proyecto1']
 
