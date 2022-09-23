@@ -1,4 +1,5 @@
 FROM python:3.8
+python3 pip install --upgrade pip
 
 # Install manually all the missing libraries
 RUN apt-get update
